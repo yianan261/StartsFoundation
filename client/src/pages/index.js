@@ -1,8 +1,12 @@
-import React from 'react'
+import { Link } from "gatsby"
+import React from "react"
 
 function index() {
   return (
-    <div>test</div>
+    <main>
+      <div>test</div>
+      <Link to="/AdminLogin/Login">Login</Link>
+    </main>
   )
 }
 
